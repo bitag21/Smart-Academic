@@ -132,10 +132,11 @@ Task
 ### Example
 
 ```java
-public class ExamTask extends Task
+public class ExamTask extends Task{
+}
 ```
 
-Subclasses inherit common fields and methods from the Task superclass.
+Subclasses inherit common fields and methods from the Task superclass, improving code reusability.
 
 ---
 
@@ -168,6 +169,8 @@ public void calculatePriority() {
         System.out.println("High Priority: More preparation needed!");
     }
 }
+
+This demonstrates runtime polymorphism because the JVM dynamically determines which method implementation to execute.
 ```
 
 ---
@@ -181,9 +184,11 @@ Same class name, but different parameters in constructors.
 ### Example
 
 ```java
-public Task()
+public Task(){
+}
 
-public Task(String title, String deadline, String priority)
+public Task(String title, String deadline, String priority){
+}
 ```
 
 ---
@@ -217,11 +222,9 @@ The Task class provides a general blueprint for all academic tasks while forcing
 ### Example
 
 ```java
-public abstract class Task
-```
-
-```java
-public abstract void calculatePriority();
+public abstract class Task {
+    public abstract void calculatePriority();
+}
 ```
 
 ---
