@@ -53,13 +53,13 @@ The application allows users to:
 ```text
 planner
 │
-├── Main.java
-├── PlannerSystem.java
-├── Student.java
-├── Task.java
 ├── AssignmentTask.java
 ├── ExamTask.java
-└── PresentationTask.java
+├── Main.java
+├── PlannerSystem.java
+├── PresentationTask.java
+├── Student.java
+└── Task.java
 ```
 
 ---
@@ -295,6 +295,4 @@ This project was created as an academic MVP project to practice:
 
 # Authors 
 
-Developed by:
--Wuberst Goshu
--Tsedale Solomon
+-Wuberst.G and Tsedale.S
